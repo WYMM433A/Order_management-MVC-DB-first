@@ -1,0 +1,712 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|c:\\users\\wai yan moe myint\\source\\order_web\\order.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:order.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\reports\\printorderviewer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\reports\\printorderviewer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\orders\\displayorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\orders\\displayorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\orderreportdata.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:orderreportdata.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\orders\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\orders\\addorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\orderreportdata.xss||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:orderreportdata.xss||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\orderreportdata.xsc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:orderreportdata.xsc||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\orderreportdata.xsc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:orderreportdata.xsc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\orderreportdata.xss||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:orderreportdata.xss||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\agents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\models\\ordermanagemententities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:models\\ordermanagemententities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\agents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\agents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\agentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\agents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\agents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\views\\agents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:views\\agents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1556FCEC-8507-4AA0-A274-39D34007886C}|Order_Web.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Order.rdlc",
+              "RelativeDocumentMoniker": "Order.rdlc",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Order.rdlc [Design]",
+              "RelativeToolTip": "Order.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-10T03:35:47.664Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrintOrderViewer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Reports\\PrintOrderViewer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reports\\PrintOrderViewer.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Reports\\PrintOrderViewer.cshtml",
+              "RelativeToolTip": "Views\\Reports\\PrintOrderViewer.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T04:11:35.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T03:54:47.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Account\\Login.cshtml*",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwGQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:39:54.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:29:47.495Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Agent.cs",
+              "RelativeToolTip": "Models\\Agent.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:32:10.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:36:10.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:36:07.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T06:01:43.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:46:42.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderReportData.xsd",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsd",
+              "RelativeDocumentMoniker": "OrderReportData.xsd",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsd",
+              "RelativeToolTip": "OrderReportData.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-05-10T03:00:44.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DisplayOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\DisplayOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\DisplayOrders.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\DisplayOrders.cshtml",
+              "RelativeToolTip": "Views\\Orders\\DisplayOrders.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwHQAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:45:48.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderManagementEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.cs",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.cs",
+              "RelativeToolTip": "Models\\OrderManagementEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:26:08.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderManagementEntities.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.Context.tt",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.Context.tt",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.Context.tt",
+              "RelativeToolTip": "Models\\OrderManagementEntities.Context.tt",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-10T02:26:19.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:36:05.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderManagementEntities.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.Designer.cs",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.Designer.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.Designer.cs",
+              "RelativeToolTip": "Models\\OrderManagementEntities.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:26:17.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderManagementEntities.edmx.diagram",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.edmx.diagram",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.edmx.diagram",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.edmx.diagram",
+              "RelativeToolTip": "Models\\OrderManagementEntities.edmx.diagram",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-10T02:26:16.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderManagementEntities.tt",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.tt",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.tt",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.tt",
+              "RelativeToolTip": "Models\\OrderManagementEntities.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-10T02:26:03.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:37:41.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:45:37.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\AddOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\AddOrder.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Orders\\AddOrder.cshtml",
+              "RelativeToolTip": "Views\\Orders\\AddOrder.cshtml",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:45:24.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:19:58.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderReportData.xss",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xss",
+              "RelativeDocumentMoniker": "OrderReportData.xss",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xss",
+              "RelativeToolTip": "OrderReportData.xss",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVDhPhZRPSytnFMafyUwqDQnEqMSKmXpjx7RIQhO4WhRisd1F10VcGcldtCIY0H4BQbsRP4Gu3DQKVtzUTcCQYFSqjVjQufHepBFM7sTgzCRjJzOZLoppJqn2B\u002B/iPec5z3l5/wH/w\u002BTkJF0ul78vl8sxURRLoijWmsZ7URQ3Y7FYAJqmEc0GjYRCodHZ2dnvLBbLRDqd7jg\u002BPv64UChQjRq32/2X2\u002B0Wurq63nIc9/OzhqFQ6KOpqakfent7566url91dXYhn89DLIs6XbfdDoIgoKhKZXR09FrXrZFAIGD0eDy92Wz2VaFQgM/rg8vlapYBAP64vETmbdYE4EtDc/KJXC5XK5VKtWpVQbHIIZ8voFQqged53eA4Dh\u002B4D\u002BB5HgDw7AoXFxclnuerQ0NDiEajYK9ZuFyfw9pu1enev3uHdDpdj\u002Bv2cHx8/NtwOPzj09zpdPZbrda\u002BVCqFjY0NqKoKijI2lkCSKpAkCU6nE2tra/oVdnd3f\u002BLz\u002Bb7Z39\u002BHoijIZrOgaRoejwe1Wg339/eN8v\u002BkZQ8FQcDu7i4ikQgikQgSiUSz5EVaDA0GA2w2GyiKgslkgtlsbpa8SIuh3W7HysoKBgYGEAgEEAwGmyUvQgHA8vLyT/39/Z85HA6aJEnYbDYYjUaYTCZYLBbIsoz5\u002BXnIsoxEIoFoNKozIUkSRuM/h0UBgN/v/5ogiNcsy4JlWQBAPp9HKpWCpmn1wpGREdA0XZ8DQHt7O2iahtfrLQO4JADg8PAweXJy8joej7cUAEC1WgXLslhaWoIsyzg4OKjnenp6HgcHB\u002B9pmr7KZDIRymw2WwwGgwEAvF4vwuEwAKBSqVRIkiTb2traisViPT42Nga/369omiZJkqTVarUcgMPz8/NfJiYmfqVisVjS4XB8mkwm610BYGFhYW54ePirYDD4RpcAoGnabw8PD3MzMzPlTCYjA6g8Pj7yAEC5XK4vtra2tLOzM6iqis3NTUxPTyOXy/3JMMwAy7LY3t6GIAjY29uDoijo6OgQV1dXfz86OqoKgqBrZgCA09NT3N7e4u7uDslkEqqq1gUcxyEej0OWZVxcXODm5gaFQkHb2dlpMcOTocPhAMMwYBgGfX19IIh/n7jZbK7nGIZBZ2dnY30LFACEw\u002BFnP1qPx0Osr6/rYs33sJG/AYSnjqm2fnOXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-10T03:20:02.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderReportData.xss",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xss",
+              "RelativeDocumentMoniker": "OrderReportData.xss",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xss",
+              "RelativeToolTip": "OrderReportData.xss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANwSURBVDhPhZRPSytnFMafyUwqDQnEqMSKmXpjx7RIQhO4WhRisd1F10VcGcldtCIY0H4BQbsRP4Gu3DQKVtzUTcCQYFSqjVjQufHepBFM7sTgzCRjJzOZLoppJqn2B\u002B/iPec5z3l5/wH/w\u002BTkJF0ul78vl8sxURRLoijWmsZ7URQ3Y7FYAJqmEc0GjYRCodHZ2dnvLBbLRDqd7jg\u002BPv64UChQjRq32/2X2\u002B0Wurq63nIc9/OzhqFQ6KOpqakfent7566url91dXYhn89DLIs6XbfdDoIgoKhKZXR09FrXrZFAIGD0eDy92Wz2VaFQgM/rg8vlapYBAP64vETmbdYE4EtDc/KJXC5XK5VKtWpVQbHIIZ8voFQqged53eA4Dh\u002B4D\u002BB5HgDw7AoXFxclnuerQ0NDiEajYK9ZuFyfw9pu1enev3uHdDpdj\u002Bv2cHx8/NtwOPzj09zpdPZbrda\u002BVCqFjY0NqKoKijI2lkCSKpAkCU6nE2tra/oVdnd3f\u002BLz\u002Bb7Z39\u002BHoijIZrOgaRoejwe1Wg339/eN8v\u002BkZQ8FQcDu7i4ikQgikQgSiUSz5EVaDA0GA2w2GyiKgslkgtlsbpa8SIuh3W7HysoKBgYGEAgEEAwGmyUvQgHA8vLyT/39/Z85HA6aJEnYbDYYjUaYTCZYLBbIsoz5\u002BXnIsoxEIoFoNKozIUkSRuM/h0UBgN/v/5ogiNcsy4JlWQBAPp9HKpWCpmn1wpGREdA0XZ8DQHt7O2iahtfrLQO4JADg8PAweXJy8joej7cUAEC1WgXLslhaWoIsyzg4OKjnenp6HgcHB\u002B9pmr7KZDIRymw2WwwGgwEAvF4vwuEwAKBSqVRIkiTb2traisViPT42Nga/369omiZJkqTVarUcgMPz8/NfJiYmfqVisVjS4XB8mkwm610BYGFhYW54ePirYDD4RpcAoGnabw8PD3MzMzPlTCYjA6g8Pj7yAEC5XK4vtra2tLOzM6iqis3NTUxPTyOXy/3JMMwAy7LY3t6GIAjY29uDoijo6OgQV1dXfz86OqoKgqBrZgCA09NT3N7e4u7uDslkEqqq1gUcxyEej0OWZVxcXODm5gaFQkHb2dlpMcOTocPhAMMwYBgGfX19IIh/n7jZbK7nGIZBZ2dnY30LFACEw\u002BFnP1qPx0Osr6/rYs33sJG/AYSnjqm2fnOXAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-10T03:03:21.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderReportData.xsc",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsc",
+              "RelativeDocumentMoniker": "OrderReportData.xsc",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsc",
+              "RelativeToolTip": "OrderReportData.xsc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001612|",
+              "WhenOpened": "2025-05-10T03:18:39.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderReportData.xsc",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsc",
+              "RelativeDocumentMoniker": "OrderReportData.xsc",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\OrderReportData.xsc",
+              "RelativeToolTip": "OrderReportData.xsc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001612|",
+              "WhenOpened": "2025-05-10T03:03:19.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAmwMcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:37:32.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Index.cshtml",
+              "RelativeToolTip": "Views\\Agents\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:33:11.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OrderManagementEntities.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.edmx",
+              "RelativeDocumentMoniker": "Models\\OrderManagementEntities.edmx",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Models\\OrderManagementEntities.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\OrderManagementEntities.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-09T08:28:04.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:45:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Items\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:44:38.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agents\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Create.cshtml",
+              "RelativeToolTip": "Views\\Agents\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:31:17.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:46:33.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AgentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\AgentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgentsController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\AgentsController.cs",
+              "RelativeToolTip": "Controllers\\AgentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:30:35.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:29:28.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Items\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:45:06.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Items\\Create.cshtml",
+              "RelativeToolTip": "Views\\Items\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:44:03.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:37:16.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-09T08:19:55.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agents\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Agents\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:31:19.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agents\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Views\\Agents\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Agents\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:31:37.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Wai Yan Moe Myint\\source\\Order_Web\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-09T08:19:26.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

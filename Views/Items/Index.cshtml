@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Order_Web.Models.Item>
+@{
+    ViewBag.Title = "Items";
+}
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+        background-color: #007bff;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f5f9;
+    }
+
+    td {
+        color: #555;
+    }
+
+    .actions a {
+        color: #007bff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        margin-right: 10px;
+    }
+
+        .actions a:hover {
+            background-color: #e6f0fa;
+            color: #0056b3;
+        }
+</style>
+<div style="margin: 20px;">
+    <h2>Items</h2>
+    <p><a href="/Items/Create">Create New Item</a></p>
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Size</th>
+            <th>Unit Price</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemName</td>
+                <td>@item.Size</td>
+                <td>@item.UnitPrice.ToString("C")</td>
+                <td class="actions">
+                    <a href="/Items/Edit/@item.ItemID">Edit</a> |
+                    <a href="/Items/Details/@item.ItemID">Details</a> |
+                    <a href="/Items/Delete/@item.ItemID" onclick="return confirm('Are you sure?');">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <a href="/Home/Index">Back</a>
+</div>

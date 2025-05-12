@@ -1,0 +1,215 @@
+﻿@model Order_Web.Controllers.HomeDashboardVm
+@using System.Globalization
+@{
+    ViewBag.Title = "Dashboard";
+    var ci = CultureInfo.CurrentCulture;
+}
+
+<style>
+    :root {
+        --primary: #007bff;
+        --primary-dark: #0056b3;
+        --bg-light: #f9f9f9;
+        --text-dark: #333;
+        --text-muted: #555;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        color: var(--text-dark);
+        background-color: #fff;
+    }
+
+    /* Container */
+    .dashboard-container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    /* Nav links */
+    .nav-links {
+        margin-bottom: 25px;
+    }
+
+        .nav-links a {
+            color: var(--primary);
+            text-decoration: none;
+            margin-right: 12px;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+            .nav-links a:hover {
+                color: var(--primary-dark);
+                text-decoration: underline;
+            }
+
+    /* Section headings */
+    section {
+        margin-top: 40px;
+    }
+
+        section h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: var(--primary-dark);
+        }
+
+    /* Forms */
+    form select {
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    form button {
+        background-color: var(--primary);
+        color: #fff;
+        border: none;
+        padding: 6px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        form button:hover {
+            background-color: var(--primary-dark);
+        }
+
+    /* Tables */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+        background-color: var(--primary);
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: var(--bg-light);
+    }
+
+    tr:hover {
+        background-color: #eef6ff;
+    }
+
+    em {
+        color: var(--text-muted);
+    }
+</style>
+
+<div class="dashboard-container">
+    <h2>Welcome to Order Management</h2>
+
+
+    <!-- Best-selling item -->
+    <section>
+        <h3>🌟 Best-Selling Item (@DateTime.Now.ToString("MMMM yyyy"))</h3>
+        @if (Model.BestItem != null)
+        {
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>@Model.BestItem.ItemName</td>
+                    <td>@Model.BestItem.Quantity</td>
+                    <td>@Model.BestItem.UnitPrice.ToString("C", ci)</td>
+                    <td>@Model.BestItem.Total.ToString("C", ci)</td>
+                </tr>
+            </table>
+        }
+        else
+        {
+            <em>No sales recorded this month.</em>
+        }
+    </section>
+
+    <!-- Items purchased by agent -->
+    <section>
+        <h3>Items Purchased by Agent</h3>
+        <form method="get">
+            @Html.DropDownList("agentId", Model.AgentsList, "-- Select agent --")
+            <input type="hidden" name="itemId" value="@Model.SelectedItemId" />
+            <button type="submit">Show</button>
+        </form>
+
+        @if (Model.ItemsByAgent.Any())
+        {
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+                @foreach (var row in Model.ItemsByAgent)
+                {
+                    <tr>
+                        <td>@row.ItemName</td>
+                        <td>@row.Quantity</td>
+                        <td>@row.UnitPrice.ToString("C", ci)</td>
+                        <td>@row.Total.ToString("C", ci)</td>
+                    </tr>
+                }
+            </table>
+        }
+        else if (Model.SelectedAgentId != null)
+        {
+            <em>No purchases for that agent yet.</em>
+        }
+    </section>
+
+    <!-- Agents who bought an item -->
+    <section>
+        <h3>Agents Who Purchased an Item</h3>
+        <form method="get">
+            @Html.DropDownList("itemId", Model.ItemsList, "-- Select item --")
+            <input type="hidden" name="agentId" value="@Model.SelectedAgentId" />
+            <button type="submit">Show</button>
+        </form>
+
+        @if (Model.AgentsByItem.Any())
+        {
+            <table>
+                <tr>
+                    <th>Agent</th>
+                    <th>Order Date</th>
+                    <th>Qty</th>
+                </tr>
+                @foreach (var row in Model.AgentsByItem)
+                {
+                    <tr>
+                        <td>@row.AgentName</td>
+                        <td>@row.OrderDate</td>
+                        <td>@row.Quantity</td>
+                    </tr>
+                }
+            </table>
+        }
+        else if (Model.SelectedItemId != null)
+        {
+            <em>No agents have purchased that item yet.</em>
+        }
+    </section>
+</div>

@@ -1,0 +1,24 @@
+﻿@model Order_Web.Models.Item
+@{
+    ViewBag.Title = "Delete Item";
+}
+<div style="margin: 20px;">
+    <h2>Delete Item</h2>
+    <div>
+        <label>Item Name:</label> @Model.ItemName
+    </div>
+    <div>
+        <label>Size:</label> @Model.Size
+    </div>
+    <div>
+        <label>Unit Price:</label> @Model.UnitPrice.ToString("C")
+    </div>
+    <form method="post" action="/Items/Delete">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" value="@Model.ItemID" />
+        <div>
+            <input type="submit" value="Delete" onclick="return confirm('Are you sure?');" />
+        </div>
+    </form>
+    <a href="/Items/Index">Back</a>
+</div>

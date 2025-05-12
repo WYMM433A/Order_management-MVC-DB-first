@@ -1,0 +1,21 @@
+﻿@model Order_Web.Models.Agent
+@{
+    ViewBag.Title = "Delete Agent";
+}
+<div style="margin: 20px;">
+    <h2>Delete Agent</h2>
+    <div>
+        <label>Agent Name:</label> @Model.AgentName
+    </div>
+    <div>
+        <label>Address:</label> @Model.Address
+    </div>
+    <form method="post" action="/Agents/Delete">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" value="@Model.AgentID" />
+        <div>
+            <input type="submit" value="Delete" onclick="return confirm('Are you sure?');" />
+        </div>
+    </form>
+    <a href="/Agents/Index">Back</a>
+</div>

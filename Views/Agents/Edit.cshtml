@@ -1,0 +1,23 @@
+﻿@model Order_Web.Models.Agent
+@{
+    ViewBag.Title = "Edit Agent";
+}
+<div style="margin: 20px;">
+    <h2>Edit Agent</h2>
+    <form method="post" action="/Agents/Edit">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="AgentID" value="@Model.AgentID" />
+        <div>
+            <label>Agent Name:</label>
+            <input type="text" name="AgentName" value="@Model.AgentName" />
+        </div>
+        <div>
+            <label>Address:</label>
+            <input type="text" name="Address" value="@Model.Address" />
+        </div>
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+    <a href="/Agents/Index">Back</a>
+</div>

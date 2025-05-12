@@ -1,0 +1,26 @@
+﻿@model byte[]
+@{
+    Layout = null;               // full‐page PDF
+    Response.ContentType = "application/pdf";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Invoice</title>
+    <meta charset="utf-8" />
+</head>
+<body style="margin:0;padding:0;height:100vh;">
+    <object data="data:application/pdf;base64,@Convert.ToBase64String(Model)"
+            type="application/pdf"
+            width="100%"
+            height="100%">
+        <p>
+            Sorry, your browser doesn’t support embedded PDFs.
+            <a href="@Url.Action("PrintOrderViewer", "Reports", new { orderId = Request.QueryString["orderId"] })">
+                Download the PDF
+            </a>
+        </p>
+    </object>
+</body>
+</html>

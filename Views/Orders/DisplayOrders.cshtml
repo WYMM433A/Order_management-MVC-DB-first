@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Order_Web.Models.Order>
+@using Order_Web.Models
+@using System.Globalization
+
+@{
+    ViewBag.Title = "Display Orders";
+}
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+        background-color: #007bff;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f5f9;
+    }
+
+    td {
+        color: #555;
+    }
+
+    .actions a,
+    .link-button {
+        color: #007bff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        margin-right: 10px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font: inherit;
+    }
+
+        .actions a:hover,
+        .link-button:hover {
+            background-color: #e6f0fa;
+            color: #0056b3;
+        }
+
+    .inline-form {
+        display: inline;
+    }
+
+    /* screen-reader-only caption */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+</style>
+
+<div style="margin: 20px;" class="orders-container">
+    <h2>Display Orders</h2>
+    <table aria-describedby="orders-caption">
+        <caption id="orders-caption" class="sr-only">List of customer orders</caption>
+        <thead>
+            <tr>
+                <th>Order Date</th>
+                <th>Agent</th>
+                <th>Items</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model ?? Enumerable.Empty<Order>())
+            {
+                var details = order.OrderDetails ?? Enumerable.Empty<OrderDetail>();
+                decimal total = details.Sum(od => (od.Quantity ?? 0m) * (od.Item?.UnitPrice ?? 0m));
+
+                <tr>
+                    <td>@(order.OrderDate?.ToString("MM/dd/yyyy") ?? "N/A")</td>
+                    <td>@(order.Agent?.AgentName ?? "Unknown")</td>
+                    <td>
+                        @string.Join(", ", details.Select(od => $"{od.Item?.ItemName ?? "Unknown"} (Qty: {od.Quantity ?? 0})"))
+                    </td>
+                    <td>@total.ToString("C", CultureInfo.CurrentCulture)</td>
+                    <td class="actions">
+                        <a href="@Url.Action("AddOrder", "Orders", new { orderId = order.OrderID })">Edit</a>
+
+                        @using (Html.BeginForm("DeleteConfirmed", "Orders",
+                                   new { orderId = order.OrderID },
+                                   FormMethod.Post,
+                                   new { @class = "inline-form", onsubmit = "return confirm('Are you sure?');" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="link-button">Delete</button>
+                        }
+
+                    <a href="@Url.Action("PrintOrder", "Reports", new { orderId = order.OrderID })" target="_blank">Print</a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Index", "Home")">Back</a>
+</div>

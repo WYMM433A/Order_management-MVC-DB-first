@@ -1,0 +1,27 @@
+﻿@model Order_Web.Models.Item
+@{
+    ViewBag.Title = "Edit Item";
+}
+<div style="margin: 20px;">
+    <h2>Edit Item</h2>
+    <form method="post" action="/Items/Edit">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="ItemID" value="@Model.ItemID" />
+        <div>
+            <label>Item Name:</label>
+            <input type="text" name="ItemName" value="@Model.ItemName" />
+        </div>
+        <div>
+            <label>Size:</label>
+            <input type="text" name="Size" value="@Model.Size" />
+        </div>
+        <div>
+            <label>Unit Price:</label>
+            <input type="number" step="0.01" name="UnitPrice" value="@Model.UnitPrice" />
+        </div>
+        <div>
+            <input type="submit" value="Save" />
+        </div>
+    </form>
+    <a href="/Items/Index">Back</a>
+</div>

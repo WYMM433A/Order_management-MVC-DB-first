@@ -1,0 +1,24 @@
+﻿@model Order_Web.Models.Order
+@{
+    ViewBag.Title = "Delete Order";
+}
+<div style="margin: 20px;">
+    <h2>Delete Order</h2>
+    <div>
+        <label>Order Date:</label> @(Model.OrderDate?.ToString("MM/dd/yyyy") ?? "N/A")
+    </div>
+    <div>
+        <label>Agent:</label> @Model.Agent?.AgentName
+    </div>
+    <div>
+        <label>Items:</label> @string.Join(", ", Model.OrderDetails.Select(od => $"{od.Item?.ItemName} (Qty: {od.Quantity ?? 0})"))
+    </div>
+    <form method="post" action="/Orders/Delete">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="OrderID" value="@Model.OrderID" />
+        <div>
+            <input type="submit" value="Delete" onclick="return confirm('Are you sure?');" />
+        </div>
+    </form>
+    <a href="/Orders/DisplayOrders">Back</a>
+</div>

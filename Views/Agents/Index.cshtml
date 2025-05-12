@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Order_Web.Models.Agent>
+@{
+    ViewBag.Title = "Agents";
+}
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    th {
+        background-color: #007bff;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #f1f5f9;
+    }
+
+    td {
+        color: #555;
+    }
+
+    .actions a {
+        color: #007bff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        margin-right: 10px;
+    }
+
+        .actions a:hover {
+            background-color: #e6f0fa;
+            color: #0056b3;
+        }
+</style>
+<div style="margin: 20px;">
+    <h2>Agents</h2>
+    <p><a href="/Agents/Create">Create New Agent</a></p>
+    <table>
+        <tr>
+            <th>Agent Name</th>
+            <th>Address</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var agent in Model)
+        {
+            <tr>
+                <td>@agent.AgentName</td>
+                <td>@agent.Address</td>
+                <td class="actions">
+                    <a href="/Agents/Edit/@agent.AgentID">Edit</a> |
+                    <a href="/Agents/Details/@agent.AgentID">Details</a> |
+                    <a href="/Agents/Delete/@agent.AgentID" onclick="return confirm('Are you sure?');">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <a href="/Home/Index">Back</a>
+</div>

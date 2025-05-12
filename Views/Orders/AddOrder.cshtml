@@ -1,0 +1,228 @@
+﻿@model Order_Web.Models.Order
+@using Order_Web.Models
+
+@{
+    ViewBag.Title = Model.OrderID > 0 ? "Edit Order" : "Add Order";
+}
+
+<style>
+    :root {
+        --primary: #007bff;
+        --primary-dark: #0056b3;
+        --bg-light: #f9f9f9;
+        --text-dark: #333;
+        --text-muted: #555;
+        --border-color: #e0e0e0;
+        --hover-bg: #e6f0fa;
+    }
+
+    .form-container {
+        margin: 20px auto;
+        max-width: 600px;
+        font-family: 'Arial', sans-serif;
+        color: var(--text-dark);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    label {
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: var(--text-muted);
+    }
+
+    .form-control {
+        padding: 10px;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        font-size: 14px;
+        color: var(--text-dark);
+        box-sizing: border-box;
+        transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+        }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 16px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: var(--primary);
+        color: #ffffff;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+        }
+
+    .btn-add-item {
+        background: transparent;
+        color: var(--primary);
+        border: 2px dashed var(--primary);
+        margin-bottom: 20px;
+    }
+
+        .btn-add-item:hover {
+            background-color: var(--hover-bg);
+        }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 15px;
+        color: var(--primary);
+        text-decoration: none;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+    /* Order detail blocks */
+    #orderDetails .order-detail {
+        background-color: var(--bg-light);
+        border: 1px solid var(--border-color);
+        padding: 15px;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+</style>
+
+<div class="form-container">
+    <h2>@(Model.OrderID > 0 ? "Edit Order" : "Add Order")</h2>
+    <form method="post" action="@Url.Action("AddOrder","Orders")">
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.OrderID)
+
+        <div class="form-group">
+            <label for="AgentID">Agent:</label>
+            @Html.DropDownList("AgentID", ViewBag.AgentID as SelectList, "-- Select Agent --", new { @class = "form-control", id = "AgentID", required = "required" })
+        </div>
+
+        <div id="orderDetails">
+            @if (Model.OrderID > 0 && Model.OrderDetails.Any())
+            {
+                int index = 0;
+                foreach (var detail in Model.OrderDetails)
+                {
+                    <div class="order-detail">
+                        <div class="form-group">
+                            <label for="ItemID_@index">Item:</label>
+                            @Html.DropDownList($"ItemID[{index}]", ViewBag.ItemID as SelectList, "-- Select Item --", new { @class = "form-control", id = $"ItemID_{index}", required = "required" })
+                        </div>
+                        <div class="form-group">
+                            <label for="Quantity_@index">Quantity:</label>
+                            <input type="number" name="Quantity[@index]" id="Quantity_@index" min="1" class="form-control" value="@detail.Quantity" required />
+                        </div>
+                    </div>
+                    index++;
+                }
+            }
+            else
+            {
+                <div class="order-detail">
+                    <div class="form-group">
+                        <label for="ItemID_0">Item:</label>
+                        @Html.DropDownList("ItemID[0]", ViewBag.ItemID as SelectList, "-- Select Item --", new { @class = "form-control", id = "ItemID_0", required = "required" })
+                    </div>
+                    <div class="form-group">
+                        <label for="Quantity_0">Quantity:</label>
+                        <input type="number" name="Quantity[0]" id="Quantity_0" min="1" class="form-control" required />
+                    </div>
+                </div>
+            }
+        </div>
+
+        <button type="button" class="btn btn-add-item" onclick="addOrderDetail()">+ Add Item</button>
+
+        <div>
+            <input type="submit" value="Save Order" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <a href="@Url.Action("DisplayOrders","Orders")" class="back-link">&larr; Back to Orders</a>
+</div>
+
+<script>
+    let itemCount = @(Model.OrderID > 0 ? Model.OrderDetails.Count() : 1);
+    const items = [
+        { value: "", text: "-- Select Item --" },
+        @foreach (var item in (ViewBag.ItemID as SelectList))
+        {
+            @:{ value: "@item.Value", text: "@item.Text" },
+        }
+    ];
+
+    function addOrderDetail() {
+        const container = document.getElementById('orderDetails');
+        const wrapper = document.createElement('div');
+        wrapper.className = 'order-detail';
+
+        const itemGroup = document.createElement('div');
+        itemGroup.className = 'form-group';
+        const itemLabel = document.createElement('label');
+        itemLabel.setAttribute('for', `ItemID_${itemCount}`);
+        itemLabel.textContent = 'Item:';
+        itemGroup.appendChild(itemLabel);
+        const select = document.createElement('select');
+        select.name = `ItemID[${itemCount}]`;
+        select.id = `ItemID_${itemCount}`;
+        select.className = 'form-control';
+        select.required = true;
+        items.forEach(opt => {
+            const o = document.createElement('option');
+            o.value = opt.value;
+            o.text = opt.text;
+            select.appendChild(o);
+        });
+        itemGroup.appendChild(select);
+        wrapper.appendChild(itemGroup);
+
+        const qtyGroup = document.createElement('div');
+        qtyGroup.className = 'form-group';
+        const qtyLabel = document.createElement('label');
+        qtyLabel.setAttribute('for', `Quantity_${itemCount}`);
+        qtyLabel.textContent = 'Quantity:';
+        qtyGroup.appendChild(qtyLabel);
+        const qtyInput = document.createElement('input');
+        qtyInput.type = 'number';
+        qtyInput.name = `Quantity[${itemCount}]`;
+        qtyInput.id = `Quantity_${itemCount}`;
+        qtyInput.min = '1';
+        qtyInput.required = true;
+        qtyInput.className = 'form-control';
+        qtyGroup.appendChild(qtyInput);
+        wrapper.appendChild(qtyGroup);
+
+        container.appendChild(wrapper);
+        itemCount++;
+    }
+</script>

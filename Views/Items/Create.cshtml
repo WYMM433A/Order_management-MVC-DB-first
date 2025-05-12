@@ -1,0 +1,26 @@
+﻿@model Order_Web.Models.Item
+@{
+    ViewBag.Title = "Create Item";
+}
+<div style="margin: 20px;">
+    <h2>Create Item</h2>
+    <form method="post" action="/Items/Create">
+        @Html.AntiForgeryToken()
+        <div>
+            <label>Item Name:</label>
+            <input type="text" name="ItemName" />
+        </div>
+        <div>
+            <label>Size:</label>
+            <input type="text" name="Size" />
+        </div>
+        <div>
+            <label>Unit Price:</label>
+            <input type="number" step="0.01" name="UnitPrice" />
+        </div>
+        <div>
+            <input type="submit" value="Create" />
+        </div>
+    </form>
+    <a href="/Items/Index">Back</a>
+</div>
